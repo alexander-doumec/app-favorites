@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'calvier';
+    src: url('Calvier.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'calibreapp';
+    src: url('CalibreApp-Medium.ttf') format(truetype);
+}
+body{
+    margin: 0;
+    padding:0;
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'calvier', sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-family: 'calibreapp', sans-serif;
+}
+
+.leftpage{
+    margin-top: 20%;
+    display: flex;
+    
+}
+
+.leftpage img{
+    width: 30%;
+    margin-right: 20%
+}
+
+.picture:hover{
+    filter: brightness(30%);
+}
+
+.leftpage p {
+    font-family: 'calibreapp',sans-serif;
+    color: white;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 2px solid #d9dcc8; /* Couleur et épaisseur de la bordure */
+    padding: 5%; /* Espace intérieur entre le texte et la bordure */
+    border-radius: 10px; /* Coins arrondis de l'encadrement */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre autour de l'encadrement */
+     width: 300px; /* Largeur de l'encadrement */
+
+}
+
+.centerpage{
+    display: flex;
+    margin-top: 5%;
+}
+
+.centerpage img{
+    height: 50%;
+    width: 50%;
+}
+
+.centerpage p{
+    font-family: 'calibreapp',sans-serif;
+    color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+    border: 2px solid #d9dcc8; /* Couleur et épaisseur de la bordure */
+    padding: 5%; /* Espace intérieur entre le texte et la bordure */
+    border-radius: 10px; /* Coins arrondis de l'encadrement */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre autour de l'encadrement */
+     width: 300px; /* Largeur de l'encadrement */
+
+}
+
+.link{
+    display: flex;
+    align-items: center;
+
+}
+
+.link img{
+    margin-left: 60%;
+    height: 10%;
+    width: 10%;
+}
+
+.link a{
+    margin-left: 10%;
+}
+.clickable-section {
+    display: block;
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+}
+
+

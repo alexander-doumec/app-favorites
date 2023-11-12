@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'apple';
+    src: url('AN Apple.ttf') format(truetype);
+}
+
+nav{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'calvier', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    background-image: url(image/applepic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.title{
+    text-align: center;
+    font-family: 'apple',sans-serif;
+    color: white;
+}
+
+.toppage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.toppage img {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.toppage p{
+    color: white;
+    font-family: 'apple',sans-serif;
+    width: 50%;
+}
+
+.content{
+    display: flex;
+    align-items: left;
+}
+
+.content img{
+    align-content: right;
+}
+
+.content p{
+    font-family: 'apple', sans-serif;
+    color: white;
+    border: 1px #FB233B solid;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    margin-right: 10%;
+    box-shadow: 16px 10px 13px 6px #FB233B; 
+
+}
+
+.link{
+    display: flex;
+    align-items: center;
+
+}
+
+.link img{
+    margin-left: 60%;
+}
+
+.link a{
+    margin-left: 10%;
+}
+.clickable-section {
+    display: block;
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+}
+
+

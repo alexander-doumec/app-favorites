@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'calvier';
+    src: url('Calvier.ttf') format(truetype);
+}
+body{
+    margin: 0;
+    padding:0;
+    background-image: url(image/montagne.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'calvier', sans-serif;
+}
+
+
+
+h1{
+    display: block;
+    text-align: center;
+    font-family: 'calvier',sans-serif;
+    color: white;
+}
+
+.appli{
+    display: grid;
+    justify-content: space-around;
+
+
+}
+
+.number1 {
+    color: white;
+    margin-bottom: 10 px;
+    justify-content: center;
+    display: grid;
+
+}
+
+.pic1{
+    padding: 10px 10px;
+    margin: 0 auto;
+  
+}

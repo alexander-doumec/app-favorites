@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'calvier';
+    src: url('Calvier.ttf') format(truetype);
+}
+body{
+    margin: 0;
+    padding:0;
+    background-image: url(image/backgroundnetflix.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'calvier', sans-serif;
+}
+
+.title {
+    position: absolute;
+        
+}
+
+.title img {
+    display: block;
+   
+    height: 30%;
+    width: 30%;
+    
+}
+
+
